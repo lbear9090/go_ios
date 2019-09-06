@@ -1,0 +1,538 @@
+/* 
+  Localizable.strings
+  Go
+
+  Created by Lee Whelan on 19/12/2017.
+  Copyright © 2017 Go. All rights reserved.
+*/
+
+//MARK: Error
+
+"ERROR_ALERT_TITLE" = "Oops!";
+"ERROR_UNKNOWN_MESSAGE" = "There has been a hiccup, please try again later";
+"ERROR_UNAUTHORIZED_MESSAGE" = "Session expired, please log in again.";
+"ERROR_NO_COUNTRIES" = "Error loading countries";
+"ERROR_NO_ID_TYPES" = "Error loading identification types";
+"ERROR_NO_TERMS_URL" = "Could not load terms";
+"ERROR_NO_SUPPORT_URL" = "Could not load support";
+"ERROR_FB_PERMISSIONS_DECLINED" = "Required Facebook permissions were not granted";
+"ERROR_FB_LOGIN_REQUEST_FAILED" = "Failed to create Facebook profile request";
+"ERROR_FB_USER_NOT_PARSED" = "Failed to parse FB profile details";
+"ERROR_FB_USER_NO_SESSION" = "Active Facebook session is required";
+"ERROR_FB_USER_NO_EVENTS_PERMISSIONS" = "Facebook has denied access to the events";
+
+// MARK: - Tab Bar Titles
+
+"TABBAR_NEWSFEED" = "Newsfeed";
+"TABBAR_TRENDING" = "Trending";
+"TABBAR_CREATE" = "Create";
+"TABBAR_CHAT" = "Chat";
+"TABBAR_PROFILE" = "Profile";
+
+//MARK: - General
+
+"ALERT_ACTION_OK" = "OK";
+"ALERT_ACTION_NO_THANKS" = "No Thanks";
+"ALERT_SUCCESS" = "Success!";
+"ALERT_TITLE_OPTIONS" = "Options";
+"ALERT_TITLE_INFO" = "Info";
+"CLOSE" = "Dismiss";
+
+// Empty States
+"EMPTY_STATE_MESSAGE" = "Oops, nothing to display right now, come back later!";
+"NEWSFEED_EMPTY_STATE" = "Add friends and see what they are saying and going to";
+"CHAT_EMPTY_STATE" = "Get the chat started";
+"NOTIFICATIONS_EMPTY_STATE" = "You have no notifications yet";
+"HOSTING_EVENTS_EMPTY_STATE" = "Start creating your events and let your friends know what you're up to";
+"TIMELINE_EMPTY_STATE" = "Post your media and comments here during the event";
+"FRIENDS_EMPTY_STATE" = "Start importing and connecting with friends";
+"INTERESTS_EMPTY_STATE" = "Search and find things that will interest you";
+
+"REPORT" = "Report";
+"REPORT_REASON" = "Reason for Reporting";
+"REASON_SPAM" = "It's Spam";
+"REASON_INAPPROPRIATE" = "It's Inappropriate";
+"REPORTED_SUCCESS_MSG" = "Item reported";
+"SHARE" = "Share";
+"DELETE_EVENT" = "Cancel Event";
+"EDIT_EVENT" = "Edit Event";
+"DELETE_EVENT_CONFIRM_MSG" = "Are you sure you want to cancel this event?";
+"EVENT_DELETED_SUCCESS" = "Event Cancelled";
+"DELETE_TIMELINE_ITEM" = "Delete Item";
+"DELETE_TIMELINE_ITEM_CONFIRM_MSG" = "Are you sure you want to delete this item?";
+
+"UNCOMMITED_CHANGES_TITLE" = "Changes";
+"UNCOMMITED_CHANGES_MESSAGE" = "You have unsaved changes that will be discarded";
+"DISCARD_CHANGES_BUTTON" = "Discard Changes";
+
+"FRIEND_REQUEST_SENT_MSG" = "Friend request sent to %@";
+"DELETE_FRIEND_REQUEST_TITLE" = "Delete friend request?";
+"UNFRIEND_ALERT_TITLE" = "Remove as a friend?";
+"UNFRIEND_ALERT_MSG" = "Are you sure you want to unfriend %@?";
+
+//MARK: - Authentication
+
+//Landing
+"LANDING_LOGIN" = "Login";
+"LANDING_REGISTER" = "Sign up";
+
+//Login
+"LOGIN_TITLE" = "Enter your login details.";
+"LOGIN_EMAIL" = "Email";
+"LOGIN_PASSWORD" = "Password";
+"LOGIN_BUTTON" = "Continue";
+"LOGIN_FORGOT_PASSWORD" = "Forgotten your login details? ";
+"LOGIN_FORGOT_PASSWORD_BOLD" = "Get help with signing in.";
+
+//Login errors
+"LOGIN_ERROR_EMPTY_FIELDS" = "Please enter an email and password";
+"LOGIN_ERROR_NO_EMAIL" = "Please enter your email";
+"LOGIN_ERROR_INVALID_EMAIL" = "Please enter a valid email";
+"LOGIN_ERROR_NO_PASSWORD" = "Please enter your password";
+
+//Reset Password
+"RESET_PASSWORD_TITLE" = "Forgot your password?";
+"RESET_PASSWORD_EMAIL" = "Email";
+"RESET_PASSWORD_BUTTON" = "Send Reset Email";
+"RESET_PASSWORD_SUCCESS_MSG" = "A password reset email has been sent!";
+
+//Register account type
+"ACCOUNT_TYPE_TITLE" = "Select your account type.";
+"ACCOUNT_TYPE_PLACEHOLDER" = "Account Type";
+"ACCOUNT_TYPE_PERSONAL" = "Personal Account";
+"ACCOUNT_TYPE_GROUP" = "Group Account";
+"ACCOUNT_TYPE_ERROR_NONE_SELECTED" = "Please select an account type";
+
+//Register group name
+"REGISTRATION_GROUP_NAME_TITLE" = "Group/Club/Company Name";
+"REGISTRATION_GROUP_NAME_PLACEHOLDER" = "Name";
+"REGISTRATION_GROUP_NAME_NOT_AVAILABLE" = "This group name has already been taken";
+"REGISTRATION_NO_GROUP_NAME" = "Please enter a group name";
+
+//Register name
+"REGISTRATION_NAME_TITLE" = "What's your name?";
+"REGISTRATION_FIRST_NAME" = "First Name";
+"REGISTRATION_LAST_NAME" = "Last Name";
+
+//Register email
+"REGISTRATION_EMAIL_TITLE" = "What's your email?";
+"REGISTRATION_EMAIL" = "Email";
+"REGISTRATION_EMAIL_NOT_AVAILABLE" = "There is an existing account associated with this email";
+"REGISTRATION_NO_EMAIL" = "Please enter a valid email";
+
+//Register password
+"REGISTRATION_PASSWORD_TITLE" = "Create a password.";
+"REGISTRATION_PASSWORD" = "Password";
+"REGISTRATION_PASSWORD_BUTTON" = "Sign up & Accept";
+
+//Register interests
+"REGISTRATION_INTERESTS_TITLE" = "Select Your Interests";
+
+"REGISTRATION_CONTINUE" = "Continue";
+"REGISTRATION_T&C" = "By signing up, you agree to our ";
+"REGISTRATION_T&C_BOLD" = "Terms & Conditions.";
+
+//MARK: - Explore
+
+"FEATURED_TITLE" = "Trending";
+"FRIENDS_TITLE" = "Friends";
+"INTERESTS_TITLE" = "Interests";
+"FILTER" = "Filter";
+
+//MARK: - Filter
+
+"FILTER_TITLE" = "Filter by Interest";
+"FILTER_RESET" = "Reset";
+"FILTER_DATES_SECTION_TITLE" = "BETWEEN";
+"FILTER_CONTRIBUTIONS_SECTION_TITLE" = "CONTRIBUTIONS";
+"FILTER_CATEGORIES_ROW_TITLE" = "Categories";
+"FILTER_BEGINNING_ROW_TITLE" = "Date Beginning";
+"FILTER_ENDING_ROW_TITLE" = "Date Ending";
+"FILTER_CONTRIBUTIONS_TYPE_ROW_TITLE" = "Type";
+"FILTER_CATEGORIES_PLACEHOLDER" = "None";
+
+//MARK: - Comments
+
+"COMMENTS_TITLE" = "Comments";
+"COMMENTS_VIEW_ALL" = "View all %d comments";
+"COMMENTS_REPORT_ACTION" = "Report";
+"COMMENTS_DELETE_ACTION" = "Delete";
+"COMMENTS_REPORTED_MSG" = "Comment Reported";
+
+//MARK: - Event Details
+
+"EVENT_DETAILS_TITLE" = "Event";
+"EVENT_DETAILS_GET_DIRECTIONS" = "Get Directions";
+"EVENT_DETAILS_CONTRIBUTION" = "Contribution";
+"EVENT_DETAILS_BRING" = "Bring";
+"EVENT_DETAILS_PURCHASE_TICKETS" = "PURCHASE TICKETS";
+"ATTENDEES" = "ATTENDEES";
+"RELATED_EVENTS" = "RELATED EVENTS";
+"VIEW_ALL" = "View All";
+"VIEW_ALL_ADD_MORE" = "View All & Add More";
+"EVENT_DETAILS_FRIENDS_ATTENDING" = "%d of your friends are going";
+"EVENT_DETAILS_VIDEO_LOAD_ERROR" = "Could not load video";
+
+"EVENT_CONTRIBUTION_TITLE" = "Contribution";
+"EVENT_CONTRIBUTION_MSG" = "Would you like to make a contribution?";
+"EVENT_CONTRIBUTION_CHANGE_AMOUNT" = "Change Amount";
+"EVENT_CHANGE_CONTRIBUTION_TITLE" = "Change Contribution";
+"EVENT_CHANGE_CONTRIBUTION_MSG" = "Change contribution amount?";
+"EVENT_CONTRIBUTION_SUCCESS_MSG" = "Thank you for your contribution";
+
+"EVENT_ADD_TO_CALENDAR_TITLE" = "Save to calendar";
+"EVENT_ADD_TO_CALENDAR_MSG" = "Do you want to save events to your calendar?";
+"CALENDAR_PERMISSIONS_NOT_GRANTED" = "You have denied calendar permissions!";
+
+"EVENT_ATTENDANCE_REQUESTED_TITLE" = "Request sent";
+"EVENT_ATTENDANCE_REQUESTED_MSG" = "Your request to attend this event has been sent to the host. You will receive a notification with the host's response.";
+
+//MARK: - Event Timeline
+
+"EVENT_TIMELINE_TITLE" = "Timeline\n";
+"EVENT_TIMELINE_ADD_MEDIA" = "ADD MEDIA";
+
+//MARK: - Event Sharing
+
+"EVENT_BRANCH_SHARE_TEXT" = "Want To Go?";
+"EVENT_FORWARDING_TITLE" = "Forward Event";
+"EVENT_FORWARDING_FORWARD" = "Forward";
+"EVENT_FORWARDING_SUCCESS_MSG" = "Event forwarded!";
+
+//MARK: - Event attendees
+
+"EVENT_ATENDEES_TITLE" = "Attendees\n";
+
+//MARK: - Add event
+
+"ADD_EVENT_TITLE" = "New Event";
+"CREATE_EVENT" = "CREATE INVITE & SHARE";
+"EVENT_LOCATION_DESC" = "Select the location of your event";
+"EVENT_LOCATION_SELECT" = "SELECT LOCATION";
+"CONTINUE" = "CONTINUE";
+"INVITE_OTHERS" = "INVITE OTHERS";
+
+//MARK: - Edit event
+"EDIT_EVENT_TITLE" = "Edit Event";
+"EDIT_EVENT_BUTTON" = "UPDATE INVITE & SHARE";
+"ALL_FRIENDS_INVITED_MSG" = "All of your friends have already been invited to this event";
+
+//Section Titles
+"ADD_EVENT_DETAILS" = "EVENT DETAILS";
+"ADD_EVENT_LOCATION" = "LOCATION";
+"ADD_EVENT_SELL_TICKETS" = "SELL TICKETS";
+"ADD_EVENT_CATEGORIES" = "CATEGORIES";
+"ADD_EVENT_INVITE_FRIENDS" = "Invite Friends";
+"ADD_EVENT_OPTIONS" = "EVENT OPTIONS";
+"ADD_EVENT_CONTRIBUTIONS" = "CONTRIBUTIONS";
+"ADD_EVENT_BRING" = "BRING";
+
+//Details rows
+"DETAILS_TITLE" = "Title";
+"DETAILS_DESCRIPTION" = "Description";
+"DETAILS_TIME" = "Time";
+"DETAILS_DATE" = "Date";
+"DETAILS_ADULT_ONLY" = "Over 18 Event";
+
+//Location row
+"EVENT_LOCATION" = "Search";
+
+// Tickets Rows
+"ENABLE_TICKET_SALES" = "Enable Ticket Sales";
+"TICKET_LINK" = "Link";
+"TICKET_LINK_PLACEHOLDER" = "URL";
+"TICKET_DESCRIPTION" = "Sell tickets from any provider to your event by entering the full link to ticketing website or app. Don't a have ticketing system? Download Glistrr";
+
+
+//Categories row
+"EVENT_CATEGORIES" = "hashtag";
+
+//Options rows
+"OPTIONS_INVITE_FRIENDS" = "Invite Friends";
+"OPTIONS_PUBLIC_BY_INVITE" = "Public By Invite";
+"OPTIONS_PUBLIC_BY_INVITE_DESCRIPTION" = "Users requesting to attend your public event must be approved by you.";
+"OPTIONS_PRIVATE" = "Private Event";
+"OPTIONS_FRIENDS_COUNT" = "%d selected";
+"OPTIONS_FRIENDS_ALL" = "All";
+"OPTIONS_FRIENDS_DESCRIPTION" = "Private events are only visible to the attendees.";
+"OPTIONS_FORWARDING" = "Event Forwarding";
+"OPTIONS_LIMITED_SPACES" = "Limited Space Event";
+"OPTIONS_LIMITED_SPACE_PLACEHOLDER" = "None";
+"OPTIONS_GUEST_CAP" = "Guest Cap";
+"OPTIONS_CHAT" = "Allow Chat";
+"OPTIONS_TIMELINE" = "Show Timeline";
+
+//Contributions rows
+"CONTRIBUTIONS_ENABLED" = "Enabled";
+"CONTRIBUTIONS_AMOUNT" = "Amount";
+"CONTRIBUTIONS_REASON" = "Reason eg. entry fee";
+"CONTRIBUTIONS_OPTIONAL" = "Optional";
+
+//Bring row
+"EVENT_BRING" = "Bring eg. beers & snacks";
+
+//Validation
+"ADD_EVENT_NO_TITLE" = "Please enter an event title";
+"ADD_EVENT_NO_DESCRIPTION" = "Please enter a description for the event";
+"ADD_EVENT_NO_TIME" = "Please enter a time for the event";
+"ADD_EVENT_NO_DATE" = "Please enter a date for the event";
+"ADD_EVENT_NO_LOCATION" = "Please enter a location for the event";
+"ADD_EVENT_NO_CATEGORIES" = "Please enter event categories";
+"ADD_EVENT_NO_MEDIA" = "Please add media to your event";
+"ADD_EVENT_NO_GUEST_CAP" = "Please enter maximum guests allowed to this event which have to be > 0";
+"ADD_EVENT_TICKET_URL_MISSING" = "Please provide a valid URL for buying tickets";
+"VIDEO_CONVERSION_FAILED" = "Unable to convert video to the correct format";
+
+"ADD_EVENT_UPLOADING_MEDIA" = "Uploading media...";
+"ADD_EVENT_SUCCESS_MSG" = "Your event has been created";
+"UPDATE_EVENT_SUCCESS_MSG" = "Your event has been updated";
+"ADD_EVENT_CONVERT_MEDIA" = "Converting media...";
+
+//Invite friends
+"INVITE_ALL_FRIENDS" = "Invite All";
+
+//MARK: - Search
+
+"PEOPLE_SEARCH" = "Go! Users";
+"TAGS_SEARCH" = "Tags";
+"PLACES_SEARCH" = "Places";
+"TAG_POSTS_COUNT" = "%d public posts";
+
+//MARK: - Settings
+
+"SETTINGS_FIND_FRIENDS" = "Find Friends";
+"SETTINGS_IMPORT_EVENTS" = "Import Events";
+"SETTINGS_MY_DETAILS" = "Account";
+"SETTINGS_STRIPE_DETAILS" = "STRIPE ACCOUNT";
+"SETTINGS_SETTINGS" = "Settings";
+"SETTINGS_ADDITIONAL" = "Additional";
+"SETTINGS_LOGOUT" = "LOG OUT";
+"SETTINGS_TITLE" = "Settings";
+"SETTINGS_IMPORT_FB_EVENTS" = "Import Facebook Events";
+"SETTINGS_EDIT_PROFILE" = "Edit Profile";
+"SETTINGS_CHANGE_PASSWORD" = "Change Password";
+"SETTINGS_PAYMENT_METHOD" = "Payment Method";
+"SETTINGS_PAYOUT_METHOD" = "Bank Account";
+"SETTINGS_VERIFICATION" = "Stripe Verification";
+"SETTINGS_NOTIFICATIONS" = "Push Notifications";
+"SETTINGS_TERMS_CONDITIONS" = "Terms & Conditions";
+"SETTINGS_LOG_OUT" = "Log Out";
+"SETTINGS_HELP" = "Support";
+
+"LOGOUT_CONFIRMATION_TITLE" = "Log Out";
+"LOGOUT_CONFIRMATION_MSG" = "Are you sure you want to log out?";
+
+//Find friends
+"FIND_FRIENDS_FACEBOOK" = "Facebook";
+"FIND_FRIENDS_CONNECT_FB" = "Connect to Facebook";
+"FIND_FRIENDS_CONTACTS" = "Contacts";
+"FIND_FRIENDS_GO" = "GO!";
+"FIND_FRIENDS_INVITE" = "Add";
+"FIND_FRIENDS_INVITED" = "Invited";
+"INVITE_FRIEND" = "Invite";
+"INVITE_SELECT_NUMBER" = "Select number to send invite";
+"EXISTING_FRIENDS_HEADER" = "FRIENDS ON GO!";
+
+"ADD_FRIENDS_PROMPT_TITLE" = "Welcome!";
+"ADD_FRIENDS_PROMPT_MSG" = "Thanks for signing up to our platform. You can now check if there are any of your friends here and invite those that aren't.";
+"ADD_FRIENDS_PROMPT_ACCEPT" = "Add Friends";
+"ADD_FRIENDS_PROMPT_REJECT" = "Not Now";
+"ALLOW_CONTACTS_ACCESS" = "Allow Access";
+
+//Facebook events
+"IMPORT_FB_EVENTS_SUCCESS_MSG" = "Imported events from Facebook!";
+
+//Payment Methods
+"PAYMENT_METHODS_ADD_CARD" = "ADD CARD";
+"PAYMENT_METHODS_TITLE" = "My Cards";
+"PAYMENT_CARDS_XS" = "XXXX XXXX XXXX ";
+
+//Payout Methods
+"PAYOUT_METHODS_ADD_ACCOUNT" = "ADD ACCOUNT";
+"PAYOUT_METHODS_TITLE" = "My Accounts";
+"PAYOUT_CARDS_XS" = "XXXXXXXXXXXX";
+
+"ADD_ACCOUNT_TITLE" = "Add Account";
+"ADD_ACCOUNT_ADD_DETAILS" = "Please enter your account details.";
+"ADD_ACCOUNT_PH_IBAN" = "IBAN";
+"ADD_ACCOUNT_PH_COUNTRY" = "Country";
+"ADD_ACCOUNT_SAVE" = "SAVE ACCOUNT";
+"PAYOUT_METHODS_ADD_ACCOUNT_MISSING_PARAMS" = "Please enter account number and select country before proceeding";
+
+"TABLE_VIEW_ACTION_DELETE" = "DELETE";
+"TABLE_VIEW_ACTION_MUTE" = "MUTE";
+"TABLE_VIEW_ACTION_UNMUTE" = "UNMUTE";
+"TABLE_VIEW_ACTION_DEFAULT" = "DEFAULT";
+
+//Notifications
+"NOTIFICATIONS_TITLE" = "Notifications";
+
+//MARK: - Change Password
+
+"CHANGE_PASSWORD_TITLE" = "Change Password";
+"CHANGE_PASSWORD_CURRENT_PASSWORD_PH" = "Current Password";
+"CHANGE_PASSWORD_NEW_PASSWORD_PH" = "New Password";
+"CHANGE_PASSWORD_CONFIRM_PASSWORD_PH" = "Confirm New Password";
+"CHANGE_PASSWORD_FILL_FIELDS" = "Please fill all fields";
+"CHANGE_PASSWORD_MISMATCH" = "New password does not match with confirm password";
+"CHANGE_PASSWORD_MIN_LENGTH" = "Password must be at least 6 characters";
+"CHANGE_PASSWORD_SUCCESS_MSG" = "Password Updated!";
+
+//MARK: - Verification
+
+"VERIFICATION_USER_DETAILS" = "Stripe Details";
+"VERIFICATION_EMAIL" = "Email";
+"VERIFICATION_PAYOUT" = "Bank Account";
+"VERIFICATION_ID" = "Identification";
+"VERIFICATION_BUSINESS" = "Business Details";
+"PAYOUT_NO_COUNTRY_RESIDENCE_ERROR" = "You must select a country of residence before adding payout method";
+
+"EMAIL_VERIFICATION_TITLE" = "Please verify you email";
+"EMAIL_VERIFICATION_SEND_MAIL" = "SEND VERIFICATION EMAIL";
+"VERIFY_EMAIL_LOADING" = "Waiting for email verification...";
+"EMAIL_PLACEHOLDER" = "Email Address";
+"EMAIL_UPDATE_ALERT_MSG" = "Account email will be updated when you click the link in the verification mail sent to ";
+
+"VALUE_MALE" = "Male";
+"VALUE_FEMALE" = "Female";
+
+"ACCOUNT_TYPE_INDIVIDUAL" = "Individual";
+"ACCOUNT_TYPE_COMPANY" = "Company";
+
+"VERIFICATION_REQUIRED_ALERT_TITLE" = "Welcome To Contributions.";
+"VERIFICATION_REQUIRED_ALERT_MSG" = "In order to send or receive money you must have a Stripe account. Set up now?";
+
+//Identification
+"VERIFY_ID_FRONT_IMAGE" = "Front Image";
+"VERIFY_ID_BACK_IMAGE" = "Back Image";
+"VERIFY_ID_TITLE" = "Select ID type and submit photos";
+"VERIFY_ID_TYPE_PH" = "ID Type";
+"VERIFY_ID_NUMBER_PH" = "ID Number";
+"VERIFY_ID_SUBMIT" = "SUBMIT ID";
+
+"VERIFY_ID_NO_TYPE" = "Please select your ID type";
+"VERIFY_ID_NO_NUMBER" = "Please enter your ID number";
+"VERIFY_ID_NO_FRONT_IMAGE" = "Please add the front image of your ID";
+"VERIFY_ID_NO_BACK_IMAGE" = "Please add the back image of your ID";
+
+"VERIFY_ID_LOADING_FRONT_IMAGE" = "Uploading image 1 of 2...";
+"VERIFY_ID_LOADING_BACK_IMAGE" = "Uploading image 2 of 2...";
+"VERIY_ID_LOADING" = "Submitting data...";
+
+//User details
+"DETAILS_HEADER_GENERAL" = "GENERAL";
+"DETAILS_HEADER_ADDRESS" = "ADDRESS";
+"DETAILS_HEADER_CONTACT" = "CONTACT";
+
+"USER_DETAILS_DOB_PH" = "Birth Date";
+"USER_DETAILS_GENDER_PH" = "Gender";
+"USER_DETAILS_ACCOUNT_PH" = "Account Type";
+"USER_DETAILS_COUNTRY_PH" = "Country of Residence";
+"USER_DETAILS_SAVE" = "Save";
+"DETAILS_VERIFICATION_PHONE_NUMBER" = "Phone Number";
+
+"USER_DETAILS_GENDER_MALE" = "Male";
+"USER_DETAILS_GENDER_FEMALE" = "Female";
+"USER_DETAILS_ACCOUNT_TYPE_INDIVIDUAL" = "Individual";
+"USER_DETAILS_ACCOUNT_TYPE_COMPANY" = "Company";
+
+"USER_DETAILS_NO_DOB" = "Please enter your date of birth";
+"USER_DETAILS_NO_GENDER" = "Please enter your gender";
+"USER_DETAILS_NO_ACCOUNT_TYPE" = "Please enter your account type";
+"USER_DETAILS_NO_COUNTRY" = "Please enter your country of residence";
+"USER_DETAILS_NO_PHONE_NUMBER" = "Please enter your phone number";
+
+//Add address
+"ADD_ADDRESS_TITLE" = "ADD ADDRESS";
+"ADD_ADDRESS_SUBTITLE" = "Please enter your address details.";
+"SAVE_ADDRESS" = "SAVE ADDRESS";
+
+"ADDRESS_PH_LINE_1" = "Address Line 1";
+"ADDRESS_PH_LINE_2" = "Address Line 2";
+"ADDRESS_PH_CITY" = "Town/City";
+"ADDRESS_PH_COUNTY" = "County/State";
+"ADDRESS_PH_POST_CODE" = "Post Code";
+"ADDRESS_PH_COUNTRY" = "Country";
+"ADDRESS_PH_NUMBER" = "Contact Number";
+
+"ADDRESS_NO_LINE_1" = "Please enter your address line 1";
+"ADDRESS_NO_TOWN" = "Please enter your town/city";
+"ADDRESS_NO_STATE" = "Please enter your county/state";
+"ADDRESS_NO_COUNTRY" = "Please enter your country";
+
+//Business details
+"BUSINESS_NAME" = "Business name";
+"BUSINESS_TAX_ID" = "Tax ID";
+"BUSINESS_ADDRESS" = "BUSINESS ADDRESS";
+"BUSINESS_DETAILS_SAVE" = "Save";
+"BUSINESS_DETAILS_NO_NAME" = "Please enter a business name";
+"BUSINESS_DETAILS_NO_TAX_ID" = "Please enter a tax ID";
+
+//MARK: - User Profile
+
+"USER_PROFILE_EDIT_PROFILE" = "Edit Profile";
+"USER_PROFILE_FRIENDS" = "friends";
+"USER_PROFILE_TITLE_HOSTING" = "Hosting";
+"USER_PROFILE_TITLE_ATTENDING" = "Attending";
+"USER_PROFILE_EVENTS_COUNT" = "%d EVENTS";
+"USER_PROFILE_FRIENDS_GOING" = "%d of your friends are going";
+"USER_REPORTED" = "User reported";
+"USER_FRIENDS" = "My Friends";
+
+//MARK: - Edit Profile
+
+"EDIT_PROFILE_TITLE" = "Edit Profile";
+"EDIT_PROFILE_COMPANY_NAME" = "Company Name";
+"EDIT_PROFILE_FIRST_NAME" = "First Name";
+"EDIT_PROFILE_LAST_NAME" = "Last Name";
+"EDIT_PROFILE_CONTACT_FIRST_NAME" = "Contact First Name";
+"EDIT_PROFILE_CONTACT_LAST_NAME" = "Contact Last Name";
+"EDIT_PROFILE_DESCRIPTION" = "Tell us something about yourself...";
+"EDIT_PROFILE_DOB" = "DOB";
+"EDIT_PROFILE_GENDER" = "Gender";
+"EDIT_PROFILE_EMAIL" = "Email";
+"EDIT_PROFILE_PHONE" = "Phone";
+"EDIT_PROFILE_OVER_18" = "Show over 18 events";
+"EDIT_PROFILE_ADD_TO_CALENDAR" = "Sync to calendar";
+"EDIT_PROFILE_INTERESTS" = "My Interests";
+"EDIT_PROFILE_NO_COMPANY_NAME" = "Please enter a company name";
+"EDIT_PROFILE_NO_FNAME" = "Please enter your first name";
+"EDIT_PROFILE_NO_SNAME" = "Please enter your surname";
+"EDIT_PROFILE_SUCCESS_MSG" = "Profile updated!";
+
+//MARK: - Chat
+
+"CHAT_TITLE" = "Chats";
+"CHAT_NEW_GROUP" = "New Group";
+"CHAT_NEW_GROUP_NEXT" = "Next";
+"CHAT_ADD_FRIENDS" = "Add Friends";
+"CHAT_NEW_GROUP_TITLE" = "Name Group";
+"CHAT_NEW_GROUP_SUBJECT" = "Type group subject here...";
+"CHAT_NEW_GROUP_SUBJECT_DETAIL" = "Provide a group subject and optional group icon";
+"MUTE_CONVERSATION_TITLE" = "Mute Conversation";
+"UNMUTE_CONVERSATION_TITLE" = "Unmute Conversation";
+"DELETE_CONVERSATION_TITLE" = "Delete Conversation";
+"CONVERSATION_OPTIONS_TITLE" = "Conversation Options";
+"CONVERSATION_OPTIONS_MESSAGE" = "Please select one of the following actions";
+"TODAY_LABEL" = "Today";
+"YESTERDAY_LABEL" = "Yesterday";
+"SELECT_LOCATION_TITLE" = "Select Location";
+"CONVERSATION_VIEW_PARTICIPANTS" = "View Participants";
+"CONVERSATION_EDIT_PARTICIPANTS" = "Edit Participants";
+"CONVERSATION_PARTICIPANTS_TITLE" = "Participants";
+"CONVERSATION_PARTICIPANTS_REMOVE" = "Remove";
+
+// Chat Attachment Options
+"CHAT_ATTACHMENT_OPTIONS_TITLE" = "Choose attachment option";
+"CHAT_ATTACHMENT_PHOTO_OPTION" = "Photo Library";
+"CHAT_ATTACHMENT_CAMERA_OPTION" = "Camera";
+"CHAT_ATTACHMENT_LOCATION_OPTION" = "Send Location";
+
+// Chat Message Failure Options
+"MESSAGE_FAILURE_OPTIONS_TITLE" = "Message delivery failed. What would you like to do?";
+"MESSAGE_FAILURE_RESEND_OPTION" = "Resend Message";
+"MESSAGE_FAILURE_DELETE_OPTION" = "Delete Message";
+"UNSENT_MESSAGE_MSG" = "You have unsent message(s) that will be lost";
+"GROUP_NAME_MISSING_ERROR" = "Please provide a group name";
+"GROUP_PARTICIPANTS_MISSING_ERROR" = "Please add at least 1 more participant to the group";
+"CHAT_TITLE_INITIAL" = "Chat\n";
